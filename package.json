@@ -4,5 +4,9 @@
 	"dependencies":{
 		"express":"*",
 		"socket.io":"*"
-	}
+	},
+	"scripts": {
+  	"start": "supervisor server.js"
+	},
+	"main": "server.js"
 }
