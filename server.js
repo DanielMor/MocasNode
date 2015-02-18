@@ -8,7 +8,6 @@ server.listen(13100);
 
 app.use(express.static(__dirname + '/'));
 
-
 function User (socketId, id, nome, room) {
   this.socketId = socketId;
   this.id = id;
